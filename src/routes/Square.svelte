@@ -2,7 +2,7 @@
 	import { send } from './transitions';
 	import { get_twemoji_url } from './utils';
 
-	export let value: string;
+	export let value: number;
 	export let selected: boolean;
 	export let found: boolean;
 	export let group: 'a' | 'b';

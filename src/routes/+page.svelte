@@ -23,21 +23,7 @@
 </svelte:head>
 
 <main>
-	<Game
-		bind:this={game}
-		on:play={() => {
-			state = 'playing';
-		}}
-		on:pause={() => {
-			state = 'paused';
-		}}
-		on:win={() => {
-			state = 'won';
-		}}
-		on:lose={() => {
-			state = 'lost';
-		}}
-	/>
+	<Game />
 
 	{#if state !== 'playing'}
 		<Modal>

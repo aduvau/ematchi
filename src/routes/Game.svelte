@@ -91,7 +91,6 @@
 						playing = false;
 						setTimeout(() => {
 							playing = false;
-							dispatch('win');
 						}, 1000);
 					}
 				}}
